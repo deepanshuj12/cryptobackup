@@ -33,10 +33,15 @@ Before running the application locally, make sure you have the following install
 - [Git](https://git-scm.com/)
 
 ### IMAGES
+Login Page
 ![alt text](image.png)
+Signup Page
 ![alt text](image-1.png)
+Trending page
 ![alt text](image-2.png)
+Watchlist page
 ![alt text](image-3.png)
+Homepage
 ![alt text](image-4.png)
 
 ### Clone the repository
