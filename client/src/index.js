@@ -14,7 +14,7 @@ import Top10 from "./pages/Top10";
 import Trending from "./pages/Trending";
 import Watchlist from "./pages/Watchlist";
 import Footer from "./components/Footer";
-import CoinByID from "./pages/CoinByID";
+import CoinById from "./pages/CoinById";
 import { createContext } from "react";
 import { Provider } from "react-redux";
 import { appStore } from "./store/appStore";
@@ -46,7 +46,7 @@ const appRouter = createBrowserRouter([
       { path: "/top10", element: <Top10 /> },
       { path: "/watchlist", element: <Watchlist /> },
       { path: "/trending", element: <Trending /> },
-      { path: "/coin/:id", element: <CoinByID /> },
+      { path: "/coins/:id", element: <CoinById /> },
       { path: "/signin", element: <Signin /> },
       { path: "/login", element: <Login /> },
       { path: "*", element: <NotFound /> },

@@ -13,23 +13,27 @@ const Top10 = () => {
     if (user === "") {
       navigate("/");
     } else {
-      const url =
-        "https://api.coingecko.com/api/v3/search/trending/?precision=3";
-
+      const url = "https://api.coingecko.com/api/v3/search/trending";
+      
       fetch(url)
-      .then((response) =>response.json()
-      .then((data) => setData(data))
-      );
+        .then(response => response.json())
+        .then(result => {
+          setData(result.coins.map(coin => coin.item));
+        })
+        .catch(error => console.error("Error fetching data:", error));
     }
-  }, [user]);
+  }, [user, navigate]);
 
   return data.length === 0 ? (
     <Loadingui />
   ) : (
     <div className="container w-full mx-auto">
-      <Cards data={data.coins} checker={"top10"} />
+      <Cards data={data} checker={"Top10"} />
     </div>
   );
 };
 
 export default Top10;
+
+
+
