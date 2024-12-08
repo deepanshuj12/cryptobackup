@@ -9,18 +9,16 @@ CryptoTracker is a cryptocurrency tracking application that allows users to trac
 - Real-time cryptocurrency price tracking.
 - View market trends for top cryptocurrencies.
 - Portfolio management: Track your owned cryptocurrencies and their performance.
-- Search functionality to find any cryptocurrency by name or symbol.
 - User-friendly interface with interactive charts.
 - Data updates every minute to ensure accurate market information.
 
 ## Tech Stack
 
-- **Frontend**: React, Redux, Bootstrap
+- **Frontend**: React, Tailwind
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (for storing user portfolio data)
-- **API**: CoinGecko API (or any other public cryptocurrency API)
-- **Authentication**: JWT for secure user login
-- **Deployment**: Heroku (or your preferred platform)
+- **Database**: MongoDB 
+- **API**: CoinGecko API 
+
 
 ## Installation
 
@@ -33,15 +31,10 @@ Before running the application locally, make sure you have the following install
 - [Git](https://git-scm.com/)
 
 ### IMAGES
-Login Page
 ![alt text](image.png)
-Signup Page
 ![alt text](image-1.png)
-Trending page
 ![alt text](image-2.png)
-Watchlist page
 ![alt text](image-3.png)
-Homepage
 ![alt text](image-4.png)
 
 ### Clone the repository
