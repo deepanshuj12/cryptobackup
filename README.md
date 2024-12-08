@@ -31,12 +31,26 @@ Before running the application locally, make sure you have the following install
 - [Git](https://git-scm.com/)
 
 ### IMAGES
+
+Login Page
 ![alt text](image.png)
+
+SignUp Page
 ![alt text](image-1.png)
+
+Trending Page
 ![alt text](image-2.png)
+
+Top10 Page
 ![alt text](image-5.png)
+
+Specific coin info page (click on coin thumbnail)
 ![alt text](image-6.png)
+
+Watchlist apge
 ![alt text](image-3.png)
+
+Homepage
 ![alt text](image-4.png)
 
 
