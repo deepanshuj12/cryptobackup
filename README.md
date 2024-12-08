@@ -34,8 +34,8 @@ Before running the application locally, make sure you have the following install
 
 ### IMAGES
 _** ![landing page](image-1.png) **_
-![user landing page](image-2.png)
-![Trending coins](image-3.png)
+**_ ![user landing page](image-2.png) **_
+**_ ![Trending coins](image-3.png) **_
 ![Watchlist coins](image-4.png)
 ![Signup](image-5.png)
 ![Login](image-6.png)
