@@ -33,7 +33,8 @@ Before running the application locally, make sure you have the following install
 - [Git](https://git-scm.com/)
 
 ### IMAGES
-_** ![landing page](image-1.png) **_
+![alt text](image-1.png)
+_** ![landing page](Screenshot (12).png) **_
 **_ ![user landing page](image-2.png) **_
 **_ ![Trending coins](image-3.png) **_
 ![Watchlist coins](image-4.png)
