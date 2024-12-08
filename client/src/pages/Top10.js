@@ -17,13 +17,9 @@ const Top10 = () => {
         "https://api.coingecko.com/api/v3/search/trending/?precision=3";
 
       fetch(url)
-      .then((response) =>response.json())
-      .then((data)=>{console.log(data.nfts[0].thumb)
-        setData(data)
-      })
-
-      //.then((data) => setData(data))
-      ;
+      .then((response) =>response.json()
+      .then((data) => setData(data))
+      );
     }
   }, [user]);
 
